@@ -3,8 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>DC Eats</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
   </head>
   <body>
-    <h1>DC Eats</h1>
+    <div class="container">
+      <div class="item">
+        <h1 class="text-logo">DC Eats</h1>
+      </div>
+      <div class="item">
+        <img src="pizza.svg" alt="DC Eats Logo" id="pizza" class="svg-logo">
+      </div>
+      <div class="item">
+        <div id='map'></div>
+      </div>
+
+      <script src="app.js"></script>
+    </div>
   </body>
 </html>

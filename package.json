@@ -19,5 +19,8 @@
   "dependencies": {
     "mapbox-gl": "^0.47.0",
     "node-sass": "^4.9.3"
+  },
+  "devDependencies": {
+    "cssnano": "^4.0.5"
   }
 }
